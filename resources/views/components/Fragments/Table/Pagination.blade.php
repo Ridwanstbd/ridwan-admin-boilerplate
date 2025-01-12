@@ -1,3 +1,4 @@
+{{-- components/Fragments/Table/Pagination.blade.php --}}
 @props(['paginator'])
 
 @if ($paginator->hasPages())

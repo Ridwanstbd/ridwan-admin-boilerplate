@@ -1,3 +1,4 @@
+{{-- components/Elements/Table/th.blade.php --}}
 @props(['sortable' => false, 'direction' => null])
 
 <th {{ $attributes->merge(['class' => 'px-4 py-3 bg-gray-50 text-left']) }}>

@@ -32,10 +32,7 @@ class User extends Authenticatable
      *
      * @var list<string>
      */
-    public function systems(): BelongsToMany
-    {
-        return $this->belongsToMany(System::class, 'system_users')->withTimestamps();
-    }
+    
     public static function validRoles(): array
     {
         return [

@@ -1,0 +1,13 @@
+{
+    "system": [
+        {
+            "name": "Company Example",
+            "description": "Your Description Company",
+            "slogan": "Your Slogan Company",
+            "favicon": "assets/img/logo.png",
+            "email": "admin@example.com",
+            "phone": "62812399999",
+            "address": "Pahlawan Street Center, Kota Madiun"
+        }
+    ]
+}

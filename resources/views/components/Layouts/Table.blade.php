@@ -1,3 +1,4 @@
+{{-- components/Layouts/Table.blade.php --}}
 @props(['striped' => false])
 
 <div class="overflow-x-auto bg-white rounded-lg shadow">

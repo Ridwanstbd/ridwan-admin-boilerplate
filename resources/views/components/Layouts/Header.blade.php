@@ -12,7 +12,7 @@
                     class="flex items-center gap-2 p-2 hover:bg-gray-100 rounded-lg transition-colors duration-200"
                 >
                 @if(Auth::check())
-                    <span>{{ $loggedInUser->name }}</span>
+                    <span>{{ Auth::user()->name }}</span>
                 @endif
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-2 h-2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />

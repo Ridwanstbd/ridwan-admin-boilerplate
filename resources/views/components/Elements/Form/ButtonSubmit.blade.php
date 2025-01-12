@@ -1,4 +1,4 @@
-@props(['type' => 'button'])
+@props(['type' => 'submit'])
 
 <button type="{{$type}}"
     {{$attributes->merge([

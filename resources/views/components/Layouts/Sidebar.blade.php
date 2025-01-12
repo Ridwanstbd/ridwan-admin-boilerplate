@@ -4,7 +4,7 @@
 <aside :class="$store.sidebar.isOpen ? 'w-64' : 'w-16'" class="fixed top-0 left-0 h-full bg-white shadow-lg transition-all duration-300">
     <!-- Sidebar Header -->
     <div class="flex items-center justify-between px-4 py-3 border-b">
-        <h1 x-show="$store.sidebar.isOpen" class="font-bold text-lg">{{$systems->name ?? "gagal"}}</h1>
+        <h1 x-show="$store.sidebar.isOpen" class="font-bold text-lg">{{ $system['name'] }}</h1>
         <button @click="$store.sidebar.toggle()" class="p-1 hover:bg-gray-100 rounded-lg">
             <svg x-show="!$store.sidebar.isOpen" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sidebar"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line></svg>
             <svg x-show="$store.sidebar.isOpen" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
@@ -85,7 +85,7 @@
                     />
                 </svg>
                 <span x-show="$store.sidebar.isOpen" class="ml-3 text-gray-700">
-                    Pengaturan
+                    Informasi Sistem
                 </span>
             </x-Elements.Link>
         </div>

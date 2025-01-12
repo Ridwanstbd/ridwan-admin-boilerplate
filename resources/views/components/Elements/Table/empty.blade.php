@@ -1,3 +1,4 @@
+{{-- components/Elements/Table/empty.blade.php --}}
 @props(['colspan' => 1])
 
 <tr>
